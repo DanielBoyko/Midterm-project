@@ -1,0 +1,60 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.row {
+  /* My way of centering the content on the page a bit, you can change this */
+  display: flex;
+  justify-content: center;
+  margin: 40px 20px;
+}
+/.col { */
+  /* To make the cards sit next to each other and not below each other */
+  display: flex;
+}
+.card {
+  width: 18rem;
+  padding: 20px;
+  border: 1px solid black;
+}
+#main-card {
+  width: 350px;
+}
+#card-set {
+  /* Add spacing at either side of the cards */
+  gap: 20px;
+}
+
+
+#body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.row {
+  /* My way of centering the content on the page a bit, you can change this */
+  display: flex;
+  justify-content: center;
+  margin: 40px 20px;
+}
+ .col {
+  /* To make the cards sit next to each other and not below each other */
+  display: flex;
+}
+.card {
+  width: 18rem!important;
+  padding: 20px!important;
+  border: 1px solid black!important;
+}
+#main-card {
+  width: 350px;
+}
+#card-set {
+  /* Add spacing at either side of the cards */
+  gap: 20px;
+}
+*/
+/* Remember to use '!important' or use Ids e.g. #main-card to make sure your style is overrides Bootstrap's styling! */
+#card-set{
+  display: flex;
+  justify-content: space-between;
+}
+*/
+/* Remember to use '!important' or use Ids e.g. #main-card to make sure your style is overrides Bootstrap's styling! */
